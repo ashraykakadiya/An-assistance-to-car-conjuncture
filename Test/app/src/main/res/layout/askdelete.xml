@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/Ad1"
+        android:hint="Enter Id"
+        android:layout_marginRight="42dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="75dp"
+        android:layout_alignBottom="@+id/Ad2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/colorPrimary"
+        android:elevation="1dp" />
+
+    <Button
+        android:text="ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Ad2"
+        android:layout_marginBottom="144dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/Ad1"
+        android:layout_alignStart="@+id/Ad1"
+        android:background="@android:color/holo_green_light" />
+</RelativeLayout>
